@@ -1,0 +1,23 @@
+{
+  "name": "huaweb",
+  "version": "1.0.0",
+  "description": "我的网站",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zechac/huaweb.git"
+  },
+  "author": "hua",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zechac/huaweb/issues"
+  },
+  "homepage": "https://github.com/zechac/huaweb#readme",
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "vue": "^2.5.2"
+  }
+}
