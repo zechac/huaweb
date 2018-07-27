@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Directive, ViewContainerRef } from '@angular/core';
 
 @Component({
   selector: 'app-dy',
@@ -7,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class DyComponent implements OnInit {
 
-  constructor() { }
+  constructor(public viewContainerRef: ViewContainerRef) { }
 
   ngOnInit() {
   }

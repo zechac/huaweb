@@ -10,7 +10,6 @@ import { HomePageComponent } from './home-page/home-page.component';
 import { DefaultComponent } from './default/default.component';
 import{RouteModuleModule} from './route-module/route-module.module';
 
-
 @NgModule({
   declarations: [
     AppComponent,
