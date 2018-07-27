@@ -2,6 +2,8 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { Routes, RouterModule } from '@angular/router';
 import {RouteOneComponent} from '../route-one/route-one.component'
+import {MatButtonModule} from '@angular/material/button';
+import { DyComponent } from '../route-one/dy/dy.component';
 
 const routes: Routes = [
   {
@@ -17,9 +19,10 @@ const routes: Routes = [
 @NgModule({
   imports: [
     CommonModule,
-    RouterModule.forRoot(routes)
+    RouterModule.forRoot(routes),
+    MatButtonModule
   ],
-  exports:[RouterModule],
-  declarations: []
+  declarations:[DyComponent,RouteOneComponent],
+  exports:[RouterModule]
 })
 export class RouteModuleModule { }

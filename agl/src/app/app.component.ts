@@ -16,7 +16,7 @@ export class AppComponent {
     private router:Router
   ) {}
 
-  itemClick(id,router:Router){
-    debugger
+  itemClick(id){
+    this.router.navigate(["route","one"])
   }
 }

@@ -1,11 +1,14 @@
 <!--The content below is only a placeholder and can be replaced.-->
+<home-page></home-page>
 <mat-toolbar>
     <span>my first app</span>
   </mat-toolbar>
 <div style="margin: 0px;display: flex;">
     <div class="menu" style="width: 150px;">
         <mat-list role="list">
-            <mat-list-item (click)="itemClick(1)" role="listitem">route1</mat-list-item>
+            <mat-list-item  role="listitem">
+              <a (click)="itemClick(1)" href="javascript:;">测试1</a>
+            </mat-list-item>
           </mat-list>
     </div>
     <div class="content" style="flex: 1;">
